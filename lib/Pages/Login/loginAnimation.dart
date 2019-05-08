@@ -63,7 +63,7 @@ class StaggerAnimation extends StatelessWidget {
           : containerCircleAnimation.value,
       child: new InkWell(
           onTap: () {
-            if (login()) _playAnimation();
+            login(); _playAnimation();
           },
           child: new Hero(
             tag: "fade",
