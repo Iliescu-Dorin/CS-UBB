@@ -423,10 +423,10 @@ class _MainPageState extends State<MainPage> {
       ],
       staggeredTiles: [
         StaggeredTile.extent(2, 350.0),
-        StaggeredTile.extent(1, 190.0),
-        StaggeredTile.extent(1, 190.0),
-        StaggeredTile.extent(2, 110.0),
-        StaggeredTile.extent(2, 110.0),
+        StaggeredTile.extent(1, 196.0),
+        StaggeredTile.extent(1, 196.0),
+        StaggeredTile.extent(2, 113.0),
+        StaggeredTile.extent(2, 113.0),
       ],
     ));
   }

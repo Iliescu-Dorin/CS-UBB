@@ -1,22 +1,14 @@
-import 'package:UBB/circular_image.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_offline/flutter_offline.dart';
-import 'package:shimmer/shimmer.dart';
-import 'package:http/http.dart' as http;
-import 'package:transparent_image/transparent_image.dart';
-import 'dart:async';
-import 'dart:convert';
 import './Pages/news.dart';
 import './Pages/Dashboard.dart';
-import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
 import 'package:rounded_floating_app_bar/rounded_floating_app_bar.dart';
 import './Pages/orar.dart';
-import "./Pages/Login/index.dart";
+import "./Pages/Login/login_page.dart";
 import './Pages/Info/Info.dart';
-import './Pages/news.dart'; 
+import './Pages/Inbox_page.dart';
 
 class ZoomScaffold extends StatefulWidget {
   final Widget menuScreen;
@@ -54,7 +46,8 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
         MainPage(),
         News(),
         Orar(),
-        LoginScreen()
+        LoginPage(),
+        
       ],
     );
   }

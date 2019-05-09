@@ -14,15 +14,14 @@ class News extends StatefulWidget {
   _NewsState createState() => _NewsState();
 }
 
-class _NewsState extends State<News>{
+class _NewsState extends State<News> {
   final String apiUrl = "https://cs.ubbcluj.ro/wp-json/wp/v2/";
-  
 
   Future<String> getPosts() async {
     var res = await http.get(
         Uri.encodeFull(apiUrl + "posts?_embed&categories=24+72+26"),
         headers: {"Accept": "application/json"});
-        
+
     setState(() {
       var resBody = json.decode(res.body);
       posts = resBody;
@@ -31,18 +30,9 @@ class _NewsState extends State<News>{
     return "Success!";
   }
 
-  Timer timer;
-  bool isNews = false;
   @override
   void initState() {
     super.initState();
-    // timer = new Timer.periodic(
-    //   new Duration(seconds: 5),
-    //   (Timer timer) async {
-    //     await 
-   
-    //   },
-    // );
   }
 
   @override

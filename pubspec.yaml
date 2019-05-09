@@ -31,13 +31,17 @@ dependencies:
   flutter_staggered_grid_view: 
   flip_card:      #de vazut 
   flutter_html_widget:
- # flutter_inappbrowser: problems with some version app:processDebugManifest
   flutter_offline: "^0.2.4"
   flutter_debug_drawer:
   percent_indicator:
   flutter_calendar_carousel:
   flutter_html:
   imap_client:
+  mobile_popup:
+  flutter_multi_carousel:
+  shared_preferences:
+  # local_auth:
+
   # tutorial_coach_mark:
  
   # The following adds the Cupertino Icons font to your application.
@@ -62,6 +66,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+     - assets/logo.png
+     - assets/alucard.jpg
      - assets/tick.png
      - assets/avatar.png
      - assets/backdrop.png
@@ -69,6 +75,10 @@ flutter:
      - assets/video4_thumb.png
      - assets/video3_thumb.png
      - assets/video2_thumb.png
+  fonts:
+      - family: Nunito
+        fonts:
+          - asset: assets/Nunito.ttf
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 

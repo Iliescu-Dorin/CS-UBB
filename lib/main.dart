@@ -5,20 +5,28 @@ import 'package:flutter/material.dart';
 import 'package:UBB/zoom_scaffold.dart';
 import 'package:http/http.dart'as http;
 import 'dart:convert';
+import './Pages/Login/login_page.dart';
+import './Pages/Login/home_page.dart';
 
 
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
+  final routes = <String, WidgetBuilder>{
+    LoginPage.tag: (context) => LoginPage(),
+    HomePage.tag: (context) => HomePage(),
+  };
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Student UBB',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.lightBlue,
+        fontFamily: 'Nunito',
       ),
       home: MyHomePage(),
+      routes: routes,
     );
   }
 }
@@ -49,8 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
      this.getPosts();
   }
+  
   @override
   Widget build(BuildContext context) {
+    
     return new ZoomScaffold(
       menuScreen: MenuScreen(),
       contentScreen: Layout(
