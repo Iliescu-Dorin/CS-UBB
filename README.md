@@ -1,6 +1,6 @@
-# Delivery
+# Student UBB
 
-A new Flutter project.
+A project for my University.
 
 ## Preview
 
@@ -11,4 +11,4 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for my University App.
