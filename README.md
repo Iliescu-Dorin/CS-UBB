@@ -4,9 +4,9 @@ A project for my University.
 
 ## Preview
 
-<img src="/screenshots/Screenshot_20190508-063908.jpg" width="250" height="500"> <img src="/screenshots/Screenshot_20190508-063949.jpg" width="250" height="500">
-<img src="/screenshots/Screenshot_20190508-063958.jpg" width="250" height="500"> <img src="/screenshots/Screenshot_20190508-064007.jpg" width="250" height="500">
-<img src="/screenshots/Screenshot_20190508-064013.jpg" width="250" height="500">
+<img src="/screenshots/Dashboard.jpg" width="250" height="500"> <img src="/screenshots/News.jpg" width="250" height="500">
+<img src="/screenshots/Orar.jpg" width="250" height="500"> <img src="/screenshots/Email.jpg" width="250" height="500">
+<img src="/screenshots/Imbox.jpg" width="250" height="500"><img src="/screenshots/Menu.jpg" width="250" height="500">
 
 
 ## Getting Started
