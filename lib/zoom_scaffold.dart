@@ -9,6 +9,7 @@ import './Pages/orar.dart';
 import "./Pages/Login/login_page.dart";
 import './Pages/Info/Info.dart';
 import './Pages/Inbox_page.dart';
+import './Pages/Yourself/pages/app.dart';
 
 class ZoomScaffold extends StatefulWidget {
   final Widget menuScreen;
@@ -98,6 +99,18 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
                         menuController.toggle();
                       }),
                   actions: <Widget>[
+                    IconButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            new MaterialPageRoute(
+                                builder: (context) => new AppPage()));
+                      },
+                      icon: Icon(
+                        Icons.account_circle,
+                        color: Colors.grey,
+                      ),
+                    ),
                     IconButton(
                       onPressed: () {
                         Navigator.push(

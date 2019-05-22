@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import '../Inbox_page.dart';
+
 class HomePage extends StatelessWidget {
   static String tag = 'home-page';
-  
+
   final String user;
   final String pass;
   HomePage({Key key, this.user, this.pass}) : super(key: key);
@@ -29,8 +30,10 @@ class HomePage extends StatelessWidget {
       ),
     );
 
-    final lorem =  new Imbox(user: user,pass: pass,) ;
-    
+    final lorem = new Imbox(
+      user: user,
+      pass: pass,
+    );
 
     final body = Container(
       width: MediaQuery.of(context).size.width,
@@ -46,7 +49,11 @@ class HomePage extends StatelessWidget {
       ),
     );
 
-    return Scaffold(floatingActionButton: new FloatingActionButton(child: Icon(Icons.art_track),),
+    return Scaffold(
+      floatingActionButton: new FloatingActionButton(
+        child: Icon(Icons.art_track),
+        onPressed: null,
+      ),
       body: body,
     );
   }
