@@ -4,9 +4,9 @@ Companion APP for my Faculty.
 
 ## Preview
 
-<img src="/screenshots/Dashboard.jpg" width="260" height="480"> <img src="/screenshots/Stiri.jpg" width="260" height="480">
-<img src="/screenshots/Orar.jpg" width="260" height="480"> <img src="/screenshots/Email.jpg" width="260" height="480">
-<img src="/screenshots/Inbox.jpg" width="260" height="480"> <img src="/screenshots/Menu.jpg" width="260" height="480">
+<img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Dashboard.jpg" width="260" height="480"> <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Stiri.jpg" width="260" height="480">
+<img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Orar.jpg" width="260" height="480"> <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Email.jpg" width="260" height="480">
+<img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Inbox.jpg" width="260" height="480"> <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Menu.jpg" width="260" height="480">
 
 ## TODO
 - [x] General UI
