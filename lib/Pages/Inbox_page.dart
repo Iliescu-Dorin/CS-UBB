@@ -156,7 +156,7 @@ class _ImboxState extends State<Imbox> {
                           builder: (context) => MobilePopUp(
                                 title: subjects[i].substring(8).toString(),
                                 leadingColor: Colors.white,
-                                builder: Builder(
+                                child: Builder(
                                   builder: (navigator) => Scaffold(
                                         body: SingleChildScrollView(
                                           child: Padding(

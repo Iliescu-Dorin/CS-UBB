@@ -29,8 +29,8 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Student UBB
-    description                           : Companion APP for my Faculty
+  - title                                 : Futuristic UI
+    description                           : Made in order to give 
     fontawesome_icon_name                 : magic
 
   - title                                 : Dashboard
@@ -80,7 +80,7 @@ cover_image                               : assets/headerimage.png              
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : sBlack                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "ffffff"
 
