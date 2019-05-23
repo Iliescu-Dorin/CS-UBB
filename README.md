@@ -3,10 +3,12 @@
 Companion APP for my Faculty.
 
 ## Preview
-
-<img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Dashboard.jpg" width="260" height="480"> <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Stiri.jpg" width="260" height="480">
-<img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Orar.jpg" width="260" height="480"> <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Email.jpg" width="260" height="480">
-<img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Inbox.jpg" width="260" height="480"> <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Menu.jpg" width="260" height="480">
+ Page Name | Pictures   
+ --- | --- 
+ [Menu],[Dashboard] | <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Menu.jpg" width="260" height="480"><img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Dashboard.jpg" width="260" height="480">
+ [News] | <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Stiri.jpg" width="260" height="480">
+ [Schedule(WIP)] | <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Orar.jpg" width="260" height="480">
+ [Email],[Inbox] |  <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Email.jpg" width="260" height="480"><img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Inbox.jpg" width="260" height="480">
 
 ## TODO
 - [x] General UI
