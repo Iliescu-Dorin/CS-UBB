@@ -1,105 +1,36 @@
-# Automatic App Landing Page
-**Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
+# Student UBB
 
-Designed for GitHub Pages for super easy set up. 
+Companion APP for my Faculty.
 
-🔧 Fork this repo
+## Preview
+ Page Name | Pictures   
+ --- | --- 
+ [Menu],[Dashboard] | <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Menu.jpg" width="260" height="480"><img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Dashboard.jpg" width="260" height="480">
+ [News] | <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Stiri.jpg" width="260" height="480">
+ [Schedule(WIP)] | <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Orar.jpg" width="260" height="480">
+ [Email],[Inbox] |  <img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Email.jpg" width="260" height="480"><img src="https://raw.githubusercontent.com/Iliescu-Dorin/CS-UBB/master/screenshots/Inbox.jpg" width="260" height="480">
 
-🗝 Enter iOS App ID in `_config.yml`
+## TODO
+- [x] General UI
+- [x] Navigation
+- [x] News via REST API
+- [x] Email via IMAP
+- [ ] Schedule
+- [ ] Professors
+- [ ] Student Cards (like Transport Card , Studcard , Library Card) - Yourself Feature
+- [ ] Show Student Professors - Yourself Feature
+- [ ] Finalize the app (Dashboard: Time remaining till the end of the semester and Calendar with all of the Free Days)
 
-📲 Upload video preview or screenshot
+## Contributing
 
-🎨 Customise site in `_config.yml` (no HTML/CSS)
+If you want to contribute with code please fork the project then revise the current code, then make your changes then make the pull request.
 
-✅ Site becomes live at GitHub Pages repository URL, e.g. `https://your-username.github.io/your-repo-name/`.
+## Support
+:heart: Star :heart: the repo to support the project or :smile:[Follow Me](https://github.com/Iliescu-Dorin).
+  Thanks!
 
-<img src="https://emilbaehr.com/files/jayson1.png" width="440"> <img src="https://emilbaehr.com/files/slor1.png" width="440">
+## Getting Started
 
-## Quick Start
+This project is made to improve the way students from Computer Science at Babes-Bolyai University are receiving information from the Faculty.
 
-### Step 1: Fork this repo.
-After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
-
-*Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.*
-
-
-
-### Step 2: Enter iOS App ID in `_config.yml`
-Enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app icon, name, price and link to App Store.
-
-You can go on with customising almost anything in the `_config.yml` file. 
-
-Things you can customise in `_config.yml`:
-- App Name
-- App Icon
-- App Description
-- App Price
-- App Store Link
-- Play Store Link
-- Press Kit Download Link
-- Cover Image
-- Cover Overlay Color
-- Background Color
-- Text Colors
-- iPhone Device Color
-- Your Name / Company Name
-- Link to Website
-- Social Links and Contact Info
-- Feature List (Title, text, icon)
-
-
-
-### Step 3: Add screenshot or video
-
-
-
-#### Adding a screenshot
-Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter. Be sure to delete the placeholder `yourscreenshot.png`.
-
-
-
-#### Adding video
-Upload your video to the folder `assets/videos/`. To have support for most browsers, you need to upload two files – one for Safari and one for Chrome/Firefox.
-
-Video formats supported by Chrome and Firefox:
-- `.webm`
-- `.ogg`
-
-Video formats supported by Safari:
-- `.mp4`
-- `.mov`
-
-
-
-#### Resolutions
-The videos and screenshots must have one of the following resolutions:
-- 828x1792
-- 1125x2436
-- 1242x2688
-
-
-
-## Feedback
-If you have feedback regarding bugs or improvements, open an issue, @ me on Twitter or write me an email. You can find my contact info on my website.
-
-I'd love to see the sites you create using this little tool.
-
-
-
-## Credits
-- [Jekyll](https://github.com/jekyll/jekyll)
-- [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
-
-
-
-## Donations
-[Donations are welcome](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S8ZZT3JXJPN92&currency_code=USD&source=url)
-
-
-## Author
-[Emil Baehr](https://emilbaehr.com/)
-
-
-
-## License
-[MIT License](LICENSE)
+<b>This APP can be used as a model for other Universities as a way to improve the flow of information given to a student.</b>
