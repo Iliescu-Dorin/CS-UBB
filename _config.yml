@@ -1,9 +1,9 @@
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+appstore_link                             : https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=300136119&mt=8                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            : https://play.google.com/store/music/album/Ed_Sheeran_Deluxe?id=Bf74rn3ivaj5pnw7kiwftgfbw2u                                          # Enter Google Play Store URL.
+presskit_download_link                    : https://github.com/Iliescu-Dorin/CS-UBB                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/avatar.png                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -34,35 +34,35 @@ features                                  :
     fontawesome_icon_name                 : magic
 
   - title                                 : Dashboard
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
+    description                           : Page with calendar and main stuff
     fontawesome_icon_name                 : star
     
   - title                                 : News via REST API
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+    description                           : News from "Anunturi Studenti" ready to read
     fontawesome_icon_name                 : mobile
 
   - title                                 : Email via IMAP
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+    description                           : Email client for every Student
     fontawesome_icon_name                 : play-circle
 
   - title                                 : Schedule
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+    description                           : Schedule for every Class
     fontawesome_icon_name                 : sync
 
   - title                                 : Student Cards
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+    description                           : StudCard, LibraryCard, TransportCard allin one
     fontawesome_icon_name                 : adjust
 
   - title                                 : Yourself
-    description                           : Display a smart app banner on iOS devices.
+    description                           : Feature that incorporates Student Cards and all the Professors Infos for each Student
     fontawesome_icon_name                 : arrow-alt-circle-down
 
   - title                                 : Library Card
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+    description                           : Instead of a real Card, why not use your phone?
     fontawesome_icon_name                 : link
 
   - title                                 : Key Links
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+    description                           : Key links for important sites like onTheHub and AcademicInfo
     fontawesome_icon_name                 : info-circle
 
   - title                                 : # New Feature Title
