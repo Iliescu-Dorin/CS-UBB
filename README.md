@@ -1,6 +1,7 @@
 # Student UBB
 
-Companion APP for my Faculty.
+Companion APP for my Faculty.<br>
+Preview: https://iliescu-dorin.github.io/CS-UBB/
 
 ## Preview
  Page Name | Pictures   
