@@ -1,0 +1,931 @@
+<div style="text-align: right;">
+<h3>director: Prof. Dr. ANDREICA Anca</h3>
+</div>
+<h2>Cadre didactice titulare</h2>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-17243" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Andreica-Anca-133x100.jpg" alt="Andreica Anca" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. ANDREICA Anca, <em>Profesor Universitar</em><br/>
+E-mail: anca[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~anca" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~anca</a><br/>
+Adresa: Campus 406, Tel:<br/>
+Domenii de interes: Calcul evolutiv, Retele complexe, Automate celulare</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-583" title="Czibula Gabriela" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Czibula-Gabriela.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. CZIBULA Gabriela, <em>Profesor Universitar</em><br/>
+E-mail: gabis[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~gabis" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~gabis</a><br/>
+Adresa: Campus 440, Tel: 5815<br/>
+Domenii de interes: Inteligenţa computaţională aplicată, Instruire automata, Sisteme multiagent</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-610" title="Czibula Istvan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Czibula-Istvan.jpg" alt="" width="100" height="103"/></div>
+<div style="display: inline-block; width: 490px;">Dr. CZIBULA Istvan, <em>Profesor Universitar</em><br/>
+E-mail: istvanc[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~istvanc" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~istvanc</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Ingineria soft bazata pe cautare, Inteligenta artificiala</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Diosan Laura" alt="Diosan Laura" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Diosan-Laura-300x400.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. DIOSAN Laura, <em>Profesor Universitar</em><br/>
+E-mail: lauras[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~lauras" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~lauras</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Inteligenta artificiala, Calcul evolutiv, Instruire automata<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-14709" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Pop-F.-Horia.jpg" alt="Horia F. Pop" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. POP F. Horia, <em>Profesor Universitar</em><br/>
+E-mail: hfpop[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~hfpop" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~hfpop</a><br/>
+Adresa: Campus 342, Tel: 5807<br/>
+Domenii de interes: Intelligent Data Analysis, Soft Computing, Inteligenta artificiala</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Sanda Avram" alt="Sanda Avram" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Sanda-Avram.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. AVRAM Sanda, <em>Conferentiar Universitar</em><br/>
+E-mail: sanda[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~sanda" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~sanda</a><br/>
+Adresa: Campus 406, Tel:<br/>
+Domenii de interes: Programare web, Analiză conceptuală formală<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-20410" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Boian-Rares-133x100.jpg" alt="Boian Rares" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. BOIAN Rares, <em>Conferentiar Universitar</em><br/>
+E-mail: rares[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~rares" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~rares</a><br/>
+Adresa: Campus 304, Tel: 5827<br/>
+Domenii de interes: Realitate virtuala</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Chira Camelia" alt="Chira Camelia" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Chira-Camelia.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. CHIRA Camelia, <em>Conferentiar Universitar</em><br/>
+E-mail: cchira[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~cchira" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~cchira</a><br/>
+Adresa: Campus 333, Tel: 5815<br/>
+Domenii de interes: Calcul evolutiv, Metaeuristici inspirate de natura, Sisteme complexe<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-25772" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Grigoreta-Cojocar.jpg" alt="Grigoreta Cojocar" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. COJOCAR Grigoreta, <em>Conferentiar Universitar</em><br/>
+E-mail: grigo[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~grigo" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~grigo</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Software engineering, Programarea orientata pe aspecte, Aspect mining</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-7765" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Craciun-Florin.jpg" alt="Craciun Florin" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. CRACIUN Florin, <em>Conferentiar Universitar</em><br/>
+E-mail: craciunf[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Analiza si verificarea automata a programelor, Sisteme de tipuri, Limbaje de programare</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-13979" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Darabant-Sergiu.jpg" alt="Darabant Sergiu" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. DARABANT Sergiu Adrian, <em>Conferentiar Universitar</em><br/>
+E-mail: dadi[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~dadi" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~dadi</a><br/>
+Adresa: Campus, Tel:<br/>
+Domenii de interes: Procesarea imaginilor, Deep Learning, Instruire automata, Retele convolutionale, Sisteme distribuite, Baze de date</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-17371" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Motogna-Simona-133x100.jpg" alt="Motogna Simona" width="100" height="134"/></div>
+<div style="display: inline-block; width: 490px;">Dr. MOTOGNA Simona, <em>Conferentiar Universitar</em><br/>
+E-mail: motogna[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~motogna" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~motogna</a><br/>
+Adresa: Campus 342, Tel: 5807<br/>
+Domenii de interes: Limbaje formale si metode de proiectare a compilatoarelor, Semantica limbajelor</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-14698" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Niculescu-Virginia.jpg" alt="Niculescu Virginia" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. NICULESCU Virginia, <em>Conferentiar Universitar</em><br/>
+E-mail: vniculescu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~vniculescu" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~vniculescu</a><br/>
+Adresa: Campus 342, Tel: 5807<br/>
+Domenii de interes: Calcul paralel, Programare orientata obiect</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Christian Sacarea" alt="Christian Sacarea" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Christian-Sacarea-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. SACAREA Christian, <em>Conferentiar Universitar</em><br/>
+E-mail: csacarea[at]math.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://math.ubbcluj.ro/~csacarea" target="_blank" rel="noopener noreferrer">http://math.ubbcluj.ro/~csacarea</a><br/>
+Adresa: Mathematica 216, Tel: 6301<br/>
+Domenii de interes: Analiza conceptuala formala, Criptografie<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-600" title="Vescan Andreea" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Vescan-Andreea.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. VESCAN Andreea, <em>Conferentiar Universitar</em><br/>
+E-mail: avescan[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~avescan" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~avescan</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Ingineria programarii, Dezvoltarea bazata pe componente, Metode formale</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Iulian Benta" alt="Iulian Benta" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Iulian-Benta.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. BENȚA Iulian, <em>Lector Universitar</em><br/>
+E-mail: benta[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Adresa: , Tel:<br/>
+Domenii de interes: Calcul afectiv, Calcul omniprezent, Instruire automată, Calcul pentru dispozitive mobile, Interacțiune om-calculator<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Iuliana Bocicor" alt="Iuliana Bocicor" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Iuliana-Bocicor.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. BOCICOR Maria Iuliana, <em>Lector Universitar</em><br/>
+E-mail: iuliana[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~iuliana/" target="_blank" rel="noopener noreferrer">www.cs.ubbcluj.ro/~iuliana/</a><br/>
+Adresa: Campus 440, Tel:<br/>
+Domenii de interes: Inteligenta artificiala, Instruire automata, Bioinformatica<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-580" title="Bufnea Darius" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Bufnea-Darius.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. BUFNEA Darius, <em>Lector Universitar</em><br/>
+E-mail: bufny[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~bufny" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~bufny</a><br/>
+Adresa: Campus 304, Tel: 5829<br/>
+Domenii de interes: Reţele de calculatoare, Controlul congestiei, Tehnologii web, SEO, Securitatea în Internet</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. CHISALITA-CRETU Camelia, <em>Lector Universitar</em><br/>
+E-mail: cretu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~cretu" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~cretu</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Software Engineering, Programare orientata obiect, Refactoring<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-589" title="Cioban Vasile" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Cioban-Vasile.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. CIOBAN Vasile, <em>Lector Universitar</em><br/>
+E-mail: vcioban[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~vcioban" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~vcioban</a><br/>
+Adresa: Campus 332, Tel: 5815<br/>
+Domenii de interes: Sisteme deschise, Baze de date</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Ciuciu Ioana" alt="Ciuciu Ioana" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Ciuciu-Ioana.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. CIUCIU Ioana, <em>Lector Universitar</em><br/>
+E-mail: oana[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~oana" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~oana</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Reprezentarea hibrida a cunostintelor, ontologii, interoperabilitate semantica, regasirea informatiei, analiza si vizualizarea Big Data, HCI, utilizabilitate<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-12144" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Cobarzan-Claudiu.jpg" alt="Cobarzan Claudiu" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. COBARZAN Claudiu, <em>Lector Universitar</em><br/>
+E-mail: claudiu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~claudiu" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~claudiu</a><br/>
+Adresa: Campus 406, Tel:<br/>
+Domenii de interes:</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Cojocar Dan" alt="Cojocar Dan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Cojocar-Dan.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. COJOCAR Dan, <em>Lector Universitar</em><br/>
+E-mail: dan[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~dan" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~dan</a><br/>
+Adresa: Campus 406, Tel:<br/>
+Domenii de interes: Sisteme distribuite, Programare concurenta<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-12718" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Troanca-Diana.jpg" alt="Cristea Diana" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. CRISTEA Diana, <em>Lector Universitar</em><br/>
+E-mail: dianat[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~dianat" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~dianat</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Analiza conceptuală formală, Programarea concurentă şi distribuită</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-6325" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Radu-Dragos.jpg" alt="Radu Dragos" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. DRAGOS Radu, <em>Lector Universitar</em><br/>
+E-mail: radu.dragos[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~radu.dragos" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~radu.dragos</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Reţele de calculatoare, Administrarea reţelelor şi a sistemelor de calcul</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Gaceanu Radu" alt="Gaceanu Radu" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Gaceanu-Radu.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. GACEANU Radu, <em>Lector Universitar</em><br/>
+E-mail: rgaceanu[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Adresa: , Tel:<br/>
+Domenii de interes: Intelligent Data Analysis, Inteligenta artificiala, Limbaje de programare<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-608" title="Grebla Horea" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Grebla-Horea.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. GREBLA Horea, <em>Lector Universitar</em><br/>
+E-mail: horea[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~horea" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~horea</a><br/>
+Adresa: Campus 406, Tel:<br/>
+Domenii de interes: Baze de date, Sisteme distribuite, Sisteme informatice integrate</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-612" title="Guran Adriana" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Guran-Adriana.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. GURAN Adriana, <em>Lector Universitar</em><br/>
+E-mail: adriana[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~adriana" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~adriana</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Proiectare centrata pe utilizator, Utilizabilitate, OOP</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Ionescu Vlad" alt="Ionescu Vlad" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Ionescu-Vlad.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. IONESCU Vlad, <em>Lector Universitar</em><br/>
+E-mail: ivlad[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Machine Learning, Software Engineering, Sentiment Analysis<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-627" title="Lazar Ioan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Lazar-Ioan.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. LAZAR Ioan, <em>Lector Universitar</em><br/>
+E-mail: ilazar[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~ilazar" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~ilazar</a><br/>
+Adresa: Campus 342, Tel: 5807<br/>
+Domenii de interes: Metode numerice pentru ecuatii integrale neliniare, Limbaje de programare</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. LUPEA Mihaiela, <em>Lector Universitar</em><br/>
+E-mail: lupea[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~lupea" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~lupea</a><br/>
+Adresa: Campus 440, Tel: 5815<br/>
+Domenii de interes: Logici clasice si neclasice, Modelarea rationamentului, OOP<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-622" title="Lupsa Dana" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Lupsa-Dana.jpg" alt="" width="100" height="115"/></div>
+<div style="display: inline-block; width: 490px;">Dr. LUPSA Dana, <em>Lector Universitar</em><br/>
+E-mail: dana[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~dana" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~dana</a><br/>
+Adresa: Campus 440, Tel: 5815<br/>
+Domenii de interes: Prelucrarea limbajului natural, Limbaje de programare</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-614" title="Lupsa Radu" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Lupsa-Radu.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. LUPSA Radu, <em>Lector Universitar</em><br/>
+E-mail: rlupsa[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~rlupsa" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~rlupsa</a><br/>
+Adresa: Campus 304, Tel: 5829<br/>
+Domenii de interes: Tehnici de programare, Procesarea imaginilor</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Mihoc Tudor" alt="Mihoc Tudor" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Mihoc-Tudor.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. MIHOC Tudor, <em>Lector Universitar</em><br/>
+E-mail: mihoct[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~mihoct/" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~mihoct/</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Teoria jocurilor, Inteligenta artificiala<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Mircea Gabriel" alt="Mircea Gabriel" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Mircea-Gabriel-small.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. MIRCEA Ioan-Gabriel, <em>Lector Universitar</em><br/>
+E-mail: mircea[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Instruire automată, Inteligenţă artificială, Bioinformatică, Bioarheologie<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Arthur Molnar" alt="Arthur Molnar" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Arthur-Molnar.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. MOLNAR Arthur, <em>Lector Universitar</em><br/>
+E-mail: arthur[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Adresa: , Tel:<br/>
+Domenii de interes:<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Marian Zsuzsanna" alt="Marian Zsuzsanna" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Marian-Zsuzsanna.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. ONEȚ-MARIAN Zsuzsanna Edit, <em>Lector Universitar</em><br/>
+E-mail: marianzsu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~marianzsu" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~marianzsu</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes:<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-630" title="Petrascu Vladiela" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Petrascu-Vladiela.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. PETRASCU Vladiela, <em>Lector Universitar</em><br/>
+E-mail: vladi[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~vladi" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~vladi</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Ingineria programarii, Metode formale</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-599" title="Pop Andreea-Diana" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Mihis-Andreea.jpg" alt="" width="97" height="129"/></div>
+<div style="display: inline-block; width: 490px;">Dr. POP Andreea-Diana, <em>Lector Universitar</em><br/>
+E-mail: mihis[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~mihis" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~mihis</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Metode formale, Prelucrarea limbajului natural</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-618" title="Prejmerean Vasile" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Prejmerean-Vasile.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. PREJMEREAN Vasile, <em>Lector Universitar</em><br/>
+E-mail: per[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~per" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~per</a><br/>
+Adresa: Campus 332, Tel: 5815<br/>
+Domenii de interes: Algoritmi si programare, Prelucrarea imaginilor</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Rusu Catalin" alt="Rusu Catalin" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Rusu-Catalin.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. RUSU Catalin, <em>Lector Universitar</em><br/>
+E-mail: rusu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~rusu" target="_blank" rel="nofollow noopener noreferrer">http://www.cs.ubbcluj.ro/~rusu</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Retele neuronale cu pulsuri, Neurobotica, Inteligenta artificiala<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-3887" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Serban-Camelia.jpg" alt="Şerban Camelia" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. ŞERBAN Camelia, <em>Lector Universitar</em><br/>
+E-mail: camelia[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~camelia" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~camelia</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Analiza si proiectarea orientata obiect, Metrici soft</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-615" title="Sterca Adrian" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Sterca-Adrian.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. STERCA Adrian, <em>Lector Universitar</em><br/>
+E-mail: forest[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~forest" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~forest</a><br/>
+Adresa: Campus 406, Tel:<br/>
+Domenii de interes:</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-9749" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Suciu-Dan.jpg" alt="Suciu Dan" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. SUCIU Dan Mircea, <em>Lector Universitar</em><br/>
+E-mail: tzutzu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~tzutzu" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~tzutzu</a><br/>
+Adresa: Campus, Tel:<br/>
+Domenii de interes: Baze de date, Gestiunea proiectelor</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Suciu Mihai" alt="Suciu Mihai" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Suciu-Mihai.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. SUCIU Mihai, <em>Lector Universitar</em><br/>
+E-mail: mihai-suciu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~mihai-suciu" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~mihai-suciu</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Inteligenta artificiala, Optimizare evolutiva multi-obiectiv, Teoria jocurilor si aplicatii<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Sabina Surdu" alt="Sabina Surdu" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Sabina-Surdu.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. SURDU Sabina, <em>Lector Universitar</em><br/>
+E-mail: sabina[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~sabina" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~sabina</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Baze de date, Algoritmi, Limbaje formale<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-24983" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Trimbitas-Gabriela.jpg" alt="Trimbitas Gabriela" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. TRIMBITAS Gabriela, <em>Lector Universitar</em><br/>
+E-mail: gabitr[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~gabitr" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~gabitr</a><br/>
+Adresa: Campus 333, Tel: 5815<br/>
+Domenii de interes: Baze de date, Structuri de date</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-15736" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Vancea-Alexandru.jpg" alt="Vancea Alexandru" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. VANCEA Alexandru, <em>Lector Universitar</em><br/>
+E-mail: vancea[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~vancea" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~vancea</a><br/>
+Adresa: Campus 304, Tel: 5829<br/>
+Domenii de interes: Paralelizarea automata a programelor, Analiza si proiectarea limbajelor de programare</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-12606" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/ioan-badarinza.jpg" alt="Ioan Badarinza" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. BADARINZA Ioan, <em>Asistent Universitar</em><br/>
+E-mail: ionutb[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes:</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Coroiu Adriana" alt="Coroiu Adriana" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Coroiu-Adriana.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. COROIU Adriana Mihaela, <em>Asistent Universitar</em><br/>
+E-mail: adrianac[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~adrianac" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~adrianac</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Inteligenţă computaţională, Agenţi inteligenţi, Analiză conceptuală formală<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Cristina Mihaila" alt="Cristina Mihaila" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Cristina-Mihaila.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. MIHAILA Cristina, <em>Asistent Universitar</em><br/>
+E-mail: cristina.mihaila[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~cristina.mihaila" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~cristina.mihaila</a><br/>
+Adresa: Campus 404, Tel:<br/>
+Domenii de interes: Alocarea sarcinilor si resurselor, Calcul evolutiv<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Pop Emilia" alt="Pop Emilia" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Pop-Emilia.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. POP Emilia, <em>Asistent Universitar</em><br/>
+E-mail: emilia[at]cs.ubbcluj.ro<br/>
+Adresa: , Tel:<br/>
+Domenii de interes: Baze de date, Big Data, Optimizare vectoriala<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Adela Rus" alt="Adela Rus" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Adela-Rus.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. RUS Adela, <em>Asistent Universitar</em><br/>
+E-mail: adela[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~adela" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~adela</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Inteligenta artificiala, Instruire automata<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-15809" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Diana-Halita.jpg" alt="Diana Halita" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. ŞOTROPA Diana-Florina, <em>Asistent Universitar</em><br/>
+E-mail: diana.sotropa[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~diana.sotropa" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~diana.sotropa</a><br/>
+Adresa:, Tel:<br/>
+Domenii de interes: Programare web, Tehnologii web, Analiză conceptuală formală</div>
+</div>
+<h2>Profesori universitari emeriţi</h2>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-566" title="Parv Bazil" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Parv-Bazil.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. PARV Bazil, <em>Profesor Universitar Emerit</em><br/>
+E-mail: bparv[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~bparv" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~bparv</a><br/>
+Adresa: Cladirea Centrala, centrul MOS, S14, Tel: 5254<br/>
+Domenii de interes: Inginerie software, Modelare si simulare, Calcul stiintific</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-561" title="Boian Florian" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Boian-Florian.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. BOIAN Florian, <em>Profesor Universitar Emerit</em><br/>
+E-mail: florin[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~florin" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~florin</a><br/>
+Adresa: Campus 304, Tel: 5829<br/>
+Domenii de interes: Sisteme de operare, Programare concurenta si distribuita</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Frentiu Militon" alt="Frentiu Militon" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Frentiu-Militon.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. FRENTIU Militon, <em>Profesor Universitar Emerit</em><br/>
+E-mail: mfrentiu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~mfrentiu" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~mfrentiu</a><br/>
+Adresa: Campus 342, Tel: 5807<br/>
+Domenii de interes: Metodologia programarii, Modele de simulare<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-16150" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Grigor-Moldovan.jpg" alt="Grigor Moldovan" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. MOLDOVAN Grigor, <em>Profesor Universitar Emerit</em><br/>
+E-mail: moldovan[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~moldovan" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~moldovan</a><br/>
+Adresa: Campus 333, Tel: 5815<br/>
+Domenii de interes: Sisteme distribuite, Limbaje formale si automate</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-23937" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Tambulea-Leon-133x100.jpg" alt="Leon Tambulea" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. TAMBULEA Leon, <em>Profesor Universitar Emerit</em><br/>
+E-mail: leon[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~leon" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~leon</a><br/>
+Adresa: Campus 333, Tel: 5815<br/>
+Domenii de interes: Baze de date, Grafica pe calculator</div>
+</div>
+<h2>Profesori invitaţi</h2>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Christian Bartelt" alt="Christian Bartelt" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Christian-Bartelt.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. BARTELT Christian, <em>Profesor Universitar Asociat Invitat</em><br/>
+Institut für Enterprise Systems, Universität Mannheim<br/>
+E-mail: bartelt[at]es.uni-mannheim.de<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.institute-for-enterprise-systems.de/ueber-uns/mitarbeiter/postdoc/dr-christian-bartelt.html" target="_blank" rel="nofollow noopener noreferrer">http://www.institute-for-enterprise-systems.de/ueber-uns/mitarbeiter/postdoc/dr-christian-bartelt.html</a><br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Radu Boţ" alt="Radu Boţ" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Radu-Bot.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. BOŢ Radu Ioan, <em>Profesor Universitar Asociat Invitat</em><br/>
+E-mail: radu.bot[at]univie.ac.at<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.mat.univie.ac.at/~rabot/" target="_blank" rel="nofollow noopener noreferrer">http://www.mat.univie.ac.at/~rabot/</a><br/>
+Adresa: , Tel:<br/>
+Domenii de interes: Algoritmi numerici de optimizare, Procesarea imaginilor, Masini cu suport vectorial<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Oliver Oswald" alt="Oliver Oswald" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Oliver-Oswald.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. Ing. OSWALD Oliver<br/>
+MHP &#8211; A Porsche Company<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Oliver Skroch" alt="Oliver Skroch" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Oliver-Skroch.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+Dr. SKROCH Oliver, <em>Profesor Universitar Asociat Invitat</em><br/>
+E-mail: skroch[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~oliver.skroch" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~oliver.skroch</a><br/>
+Adresa: , Tel:<br/>
+Domenii de interes: Sisteme software adaptive, Analiza modelelor şi proceselor<br/>
+</div></div>
+<h2>Cadre didactice asociate</h2>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-17239" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Chiorean-Dan-133x100.jpg" alt="Chiorean Dan" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">Dr. CHIOREAN Dan, <em>Conferentiar Universitar</em><br/>
+E-mail: chiorean[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~chiorean" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~chiorean</a><br/>
+Adresa: Campus 605, Tel:<br/>
+Domenii de interes: Ingineria programării bazată pe modele, Instrumente CASE care sprijină dezvoltarea folosind modele, OCL, Dezvoltare folosind limbaje specifice domeniului şi/sau limbaje adaptate, Metodologii de dezvoltare</div>
+</div>
+<h2>Doctoranzi</h2>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Silvana Albert" alt="Silvana Albert" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Silvana-Albert.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+ALBERT Silvana, <em>Doctorand</em><br/>
+E-mail: albert.silvana[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~albert.silvana/home.html" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~albert.silvana/home.html</a><br/>
+Domenii de interes: Bioinformatică, Inteligenţă artificială, Inginerie Software<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Andor Camelia-Florina" alt="Andor Camelia-Florina" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Andor-Camelia-Florina.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+ANDOR Camelia-Florina, <em>Doctorand</em><br/>
+E-mail: andorcamelia[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Big Data<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+BORODI Flavia, <em>Doctorand</em><br/>
+E-mail: flavia[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Gestiunea proiectelor, Arhitectura sistemelor software<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Florentin Bota" alt="Florentin Bota" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Florentin-Bota.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+BOTA Florentin, <em>Doctorand</em><br/>
+E-mail: botaflorentin[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~botaflorentin" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~botaflorentin</a><br/>
+Domenii de interes: Inteligență artificială, Economie comportamentală, Simulări multi-agent, Deep learning<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+BOŢA Daniel, <em>Doctorand</em><br/>
+E-mail: dbota[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Detectarea aplicatiilor malware, Data mining, Securitatea informatica<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-15807" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Alina-Calin.jpg" alt="Alina Calin" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">CALIN Alina Delia, <em>Doctorand</em><br/>
+E-mail: alinacalin[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~alinacalin/" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~alinacalin</a><br/>
+Domenii de interes:</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Ioan Crisan" alt="Ioan Crisan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Ioan-Crisan.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+CRISAN Ioan, <em>Doctorand</em><br/>
+E-mail: ioan.crisan[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Software Engineering, Enterprise Systems, Software Architecture and Design<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Daniela Cristea" alt="Daniela Cristea" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Daniela-Cristea.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+CRISTEA Daniela Maria, <em>Doctorand</em><br/>
+E-mail: danielacristea[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~danielacristea" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~danielacristea</a><br/>
+Domenii de interes: Inginerie soft bazata pe agenti, Aspecte mining<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Liana Crivei" alt="Liana Crivei" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Liana-Crivei.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+CRIVEI Liana, <em>Doctorand</em><br/>
+E-mail: liana.crivei[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Data mining, Baze de date<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Dragos Dobrean" alt="Dragos Dobrean" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Dragos-Dobrean.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+DOBREAN Dragoș, <em>Doctorand</em><br/>
+E-mail: dobrean[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Arhitecturi software, Platforme mobile<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Alina Enescu" alt="Alina Enescu" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Alina-Enescu.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+ENESCU Alina, <em>Doctorand</em><br/>
+E-mail: aenescu[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Automate celulare<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Filep Levente" alt="Filep Levente" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Filep-Levente-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+FILEP Levente, <em>Doctorand</em><br/>
+E-mail: f.levi[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Cloud computing, Algoritmi meta-euristici, Programare web, Sisteme embedded<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+GHEORGHICA Radu, <em>Doctorand</em><br/>
+E-mail: gheorghica.radu[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Algoritmica, Programare paralela<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Limboi Sergiu" alt="Limboi Sergiu" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Limboi-Sergiu.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+LIMBOI Sergiu, <em>Doctorand</em><br/>
+E-mail: sergiu[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Inteligenta artificiala, Arhitecturi orientate pe servicii, Microservices, Search-based software engineering<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Lorincz Beata" alt="Lorincz Beata" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Lorincz-Beata.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+LORINCZ Beata, <em>Doctorand</em><br/>
+E-mail: lorinczb[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Managementul proiectelor, Inginerie software, Ingineria cerintelor, Baze de date<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Alexandru Marinescu" alt="Alexandru Marinescu" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Alexandru-Marinescu.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MARINESCU Alexandru-Ion, <em>Doctorand</em><br/>
+E-mail: amarinescu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/https://amarinescu.ro/" target="_blank" rel="noopener nofollow noreferrer">https://amarinescu.ro/</a><br/>
+Domenii de interes: Inteligenta artificiala, Realitate virtuala<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MIHAI Andrei, <em>Doctorand</em><br/>
+E-mail: mihai.andrei[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes:<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Alin Mihis" alt="Alin Mihis" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Alin-Mihis.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MIHIȘ Alin, <em>Doctorand</em><br/>
+E-mail: mihis.alin[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Prelucrarea limbajului natural, Ontologii<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Diana Miholca" alt="Diana Miholca" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Diana-Miholca-100x133.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MIHOLCA Diana-Lucia, <em>Doctorand</em><br/>
+E-mail: diana[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Inteligență artificială, Instruire automată<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Roxana Mocan" alt="Roxana Mocan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Roxana-Mocan.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MOCAN Roxana, <em>Doctorand</em><br/>
+E-mail: roxanamocan[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Invatare automata, Procesare de imagini<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MONDOC Alexandra, <em>Doctorand</em><br/>
+E-mail: alexandra[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Solutii de securitate, Detectia aplicatiilor malitioase bazata pe comportament<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Muresan Horea Bogdan" alt="Muresan Horea Bogdan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Muresan-Horea-Bogdan.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MURESAN Horea, <em>Doctorand</em><br/>
+E-mail: horea.muresan[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Inteligenta artificiala, Retele neuronale convolutionale<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Mursa Bogdan" alt="Mursa Bogdan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Mursa-Bogdan.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+MURSA Bogdan, <em>Doctorand</em><br/>
+E-mail: bmursa[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Calcule de inalta performanta, Algoritmi, Extragerea de informatii, Retele complexe<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Maria Nutu" alt="Maria Nutu" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Maria-Nutu.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+NUTU Maria, <em>Doctorand</em><br/>
+E-mail: maria.nutu[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~maria.nutu/" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~maria.nutu</a><br/>
+Domenii de interes: Inteligența artificială, Instruire automată, Intelligent Data Analysis<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Szabolcs Pavel" alt="Szabolcs Pavel" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Szabolcs-Pavel.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+PAVEL Szabolcs, <em>Doctorand</em><br/>
+E-mail: pszabolcs[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Computer vision, Instruire automată, Deep learning<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Petrusel Mara" alt="Petrusel Mara" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Petrusel-Mara.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+PETRUȘEL Mara, <em>Doctorand</em><br/>
+E-mail: mara[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Inteligenta artificiala, Sisteme de recomandare<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-9229" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Pop-Bogdan.jpg" alt="Pop Bogdan" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">POP Bogdan, <em>Doctorand</em><br/>
+E-mail: popb[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~popb" target="_blank" rel="nofollow noopener noreferrer">http://www.cs.ubbcluj.ro/~popb</a><br/>
+Domenii de interes:</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Danut Pop" alt="Danut Pop" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Danut-Pop.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+POP Danut, <em>Doctorand</em><br/>
+E-mail: danutpop[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Robotica, Inteligenta artificiala, Instruire autonoma<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+ROSIAN Vasile Adrian, <em>Doctorand</em><br/>
+E-mail: adrian.rosian[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Limbaje de programare, Programare functionala, Teoria categoriilor<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="SAMSUNG CSC" alt="SAMSUNG CSC" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Csanad-Sandor.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+SANDOR Csanad, <em>Doctorand</em><br/>
+E-mail: scsanad[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Computer vision, Instruirea automata a masinilor, Modele DEEP de instruire automata, Programarea GPU<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Denisa Seghedi" alt="Denisa Seghedi" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Denisa-Seghedi.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+SEGHEDI Denisa, <em>Doctorand</em><br/>
+E-mail: denisas[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Inteligenta artificiala<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Sima Ioan" alt="Sima Ioan" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Sima-Ioan.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+SIMA Ioan, <em>Doctorand</em><br/>
+E-mail: sima.ioan[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Baze de date, Bioinformatica<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Cristian-Ioan Stancalau" alt="Cristian-Ioan Stancalau" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Cristian-Ioan-Stancalau.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+STANCALAU Cristian-Ioan, <em>Doctorand</em><br/>
+E-mail: stanky[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Revizuirea codului, Bune practici in programarea orientata obiect, Refactorizare, Asigurarea calitatii sistemelor soft<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Sulyok Csaba" alt="Sulyok Csaba" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Sulyok-Csaba.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+SULYOK Csaba, <em>Doctorand</em><br/>
+E-mail: sulyok.csaba[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Software Engineering, Procesare digitala a semnalelor, Instruire automata, Build Automation<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Szederjesi Arnold" alt="Szederjesi Arnold" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Szederjesi-Arnold-100x133.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+SZEDERJESI Arnold, <em>Doctorand</em><br/>
+E-mail: arnold[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Intelligent Data Analysis, Inteligenta artificiala, Sisteme distribuite, Tehnologii<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Adrian Telcian" alt="Adrian Telcian" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Adrian-Telcian.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+TELCIAN Adrian, <em>Doctorand</em><br/>
+E-mail: adriant[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Analiza conceptuala formala, Baze de date<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Mihai Teletin" alt="Mihai Teletin" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Mihai-Teletin.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+TELETIN Mihai, <em>Doctorand</em><br/>
+E-mail: mihai.teletin[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Instruire automata, Deep Learning, Computer Vision<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="" alt="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+TICLE Daniel, <em>Doctorand</em><br/>
+E-mail: daniel[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes:<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-15811" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Raul-Tosa.jpg" alt="Raul Tosa" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">TOŞA Raul, <em>Doctorand</em><br/>
+E-mail: raul[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~raul" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~raul</a><br/>
+Domenii de interes: Tehnologii de virtualizare hardware, Solutii de securitate, Vulnerability research, Penetration testing</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-16002" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Paul-Tirban.jpg" alt="Paul Tirban" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">ŢIRBAN Paul, <em>Doctorand</em><br/>
+E-mail: tirban[at]cs.ubbcluj.ro<br/>
+Web: <a href="https://web.archive.org/web/20190715184034/http://www.cs.ubbcluj.ro/~tirban" target="_blank" rel="noopener noreferrer">http://www.cs.ubbcluj.ro/~tirban</a><br/>
+Domenii de interes: Cloud Computing, Software Engineering, Calitatea sistemelor soft</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Gelu Vac" alt="Gelu Vac" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Gelu-Vac.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+VAC Gelu, <em>Doctorand</em><br/>
+E-mail: gelu.vac[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes:<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Zsigmond Imre" alt="Zsigmond Imre" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Zsigmond-Imre.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+ZSIGMOND Imre, <em>Doctorand</em><br/>
+E-mail: imre[at]cs.ubbcluj.ro<br/>
+Web:<br/>
+Domenii de interes: Gamification<br/>
+</div></div>
+<h2>Personal didactic auxiliar</h2>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-9191" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Balea-Gavrila.jpg" alt="Balea Gavrila" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">BALEA Gavrila, <em>Inginer de sistem</em><br/>
+E-mail: gb[at].cs.ubbcluj.ro<br/>
+Adresa: Campus 305, Tel: 5815, 5757</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-410" title="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">BALEA Felicia, <em>Tehnician</em><br/>
+E-mail:<br/>
+Adresa: Campus 331, Tel: 5815</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-410" title="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">CENAN Ioana, <em>Tehnician</em><br/>
+E-mail: ioana.cenan[at].cs.ubbcluj.ro<br/>
+Adresa: Campus 331, Tel: 5815</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Ioana Chiorean" alt="Ioana Chiorean" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Ioana-Chiorean.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+CHIOREAN Ioana, <em>Referent</em><br/>
+E-mail: ioanachiorean[at]cs.ubbcluj.ro<br/>
+Adresa: Campus 305, Tel: 5815, 5757<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full" style="width: 100px; height: 133px" title="Chiorean Marius" alt="Chiorean Marius" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Chiorean-Marius.jpg"/></div>
+<div style="display: inline-block; width: 490px;">
+CHIOREAN Marius, <em>Inginer de sistem</em><br/>
+E-mail: marius[at]cs.ubbcluj.ro<br/>
+Adresa: Campus 305, Tel: 5815, 5757<br/>
+</div></div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-22618" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Colt-Alexandrina-Ramona.jpg" alt="Colt Alexandrina-Ramona" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">COLT Alexandrina-Ramona, <em>Secretara</em><br/>
+E-mail: colt_alexandrina[at]cs.ubbcluj.ro<br/>
+Adresa: Cladirea Centrala 122, Tel: 5254</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-410" title="" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/missing-male-133x100.jpg" alt="" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">GANSCA Gheorghe, <em>Tehnician</em><br/>
+E-mail:<br/>
+Adresa: Campus 331, Tel: 5815</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-17409" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Pasca-Gavril-133x100.jpg" alt="Pasca Gavril" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">PASCA Gavril, <em>Tehnician</em><br/>
+E-mail: pasca[at]cs.ubbcluj.ro<br/>
+Adresa: Campus 331, Tel: 5815</div>
+</div>
+<div style="border-bottom: 1px dashed black; margin-bottom: 12px; padding-bottom: 12px;">
+<div style="width: 128px; display: inline-block; text-align: center;"><img class="alignnone size-full wp-image-8160" src="https://web.archive.org/web/20190715184034im_/http://www.cs.ubbcluj.ro/wp-content/uploads/Szasz-Paul.jpg" alt="Szasz Paul" width="100" height="133"/></div>
+<div style="display: inline-block; width: 490px;">SZASZ Paul, <em>Tehnician</em><br/>
+E-mail: paul[at]cs.ubbcluj.ro<br/>
+Adresa: Campus 331, Tel: 5815, 5757</div>
+</div>

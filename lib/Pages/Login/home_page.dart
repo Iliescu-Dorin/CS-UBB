@@ -39,10 +39,16 @@ class HomePage extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.all(28.0),
       decoration: BoxDecoration(
-        gradient: LinearGradient(colors: [
-          Colors.blue,
-          Colors.lightBlueAccent,
-        ]),
+        gradient: LinearGradient(
+            colors: Theme.of(context).brightness == Brightness.light
+                ? [
+                    Colors.blue,
+                    Colors.lightBlueAccent,
+                  ]
+                : [
+                    Colors.black,
+                    Colors.black12,
+                  ]),
       ),
       child: Column(
         children: <Widget>[alucard, welcome, lorem],
@@ -50,6 +56,7 @@ class HomePage extends StatelessWidget {
     );
 
     return Scaffold(
+      backgroundColor: Theme.of(context).primaryColor,
       floatingActionButton: new FloatingActionButton(
         child: Icon(Icons.art_track),
         onPressed: null,

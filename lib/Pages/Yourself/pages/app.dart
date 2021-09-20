@@ -1,5 +1,7 @@
 import 'dart:ui';
 
+import 'package:UBB/Pages/Setari/widget/superhero.dart';
+import 'package:UBB/Pages/Setari/widget/superhero_avatar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../../main.dart';
@@ -33,9 +35,14 @@ class _AppPageState extends State<AppPage> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
-        leading: InkWell(child: Image(image: Assets.image("menu.png"),),onTap:  () => {
-                Navigator.pop(context),
-              },),
+        leading: InkWell(
+          child: Image(
+            image: Assets.image("menu.png"),
+          ),
+          onTap: () => {
+            Navigator.pop(context),
+          },
+        ),
         actions: <Widget>[
           Image(
             image: Assets.image("bell.png"),
@@ -52,7 +59,7 @@ class _AppPageState extends State<AppPage> {
       ),
       body: SingleChildScrollView(
         child: Container(
-          height: MediaQuery.of(context).size.height+200,
+          height: MediaQuery.of(context).size.height + 200,
           child: Column(
             children: <Widget>[
               Container(
@@ -82,9 +89,8 @@ class _AppPageState extends State<AppPage> {
                 ),
                 child: Builder(
                   builder: (context) => FavouriteListView(
-                        onSelect: (account) =>
-                            showFavouriteInfo(context, account),
-                      ),
+                    onSelect: (account) => showFavouriteInfo(context, account),
+                  ),
                 ),
               ),
               Container(
@@ -102,11 +108,10 @@ class _AppPageState extends State<AppPage> {
     );
   }
 
-  void showFavouriteInfo(BuildContext context, Favourite favourite) {
+  void showFavouriteInfo(BuildContext context, SuperHero favourite) {
     showModalBottomSheetApp(
       context: context,
-      builder: (context) => TransitionBottomSheetView(
-          account: _selectedAccount, favourite: favourite),
+      builder: (context) => TransitionBottomSheetView(favourite: favourite),
     );
   }
 }

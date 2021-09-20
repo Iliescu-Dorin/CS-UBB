@@ -103,7 +103,7 @@ class ArtistDetailsPage extends StatelessWidget {
                 Navigator.push(
                     context,
                     new MaterialPageRoute(
-                        builder: (context) => new MyHomePage())), //!!Nu prea e ok, dar merge . Daca sunt probleme revin aici
+                        builder: (context) => new MyMainPage())), //!!Nu prea e ok, dar merge . Daca sunt probleme revin aici
               }),
       body: Stack(
         fit: StackFit.expand,

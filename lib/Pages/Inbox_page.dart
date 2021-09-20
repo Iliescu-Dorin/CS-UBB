@@ -3,8 +3,11 @@ import 'dart:convert' show utf8;
 import "package:imap_client/imap_client.dart";
 import 'package:flutter/material.dart';
 import 'package:flutter_multi_carousel/carousel.dart';
+import 'package:link_text/link_text.dart';
 import 'package:mobile_popup/mobile_popup.dart';
+import 'package:share/share.dart';
 import 'package:shimmer/shimmer.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Imbox extends StatefulWidget {
   final String user;
@@ -78,7 +81,7 @@ class _ImboxState extends State<Imbox> {
         axis: Axis.horizontal,
         showArrow: false,
         children: List.generate(
-          subjects == null
+          subjects.length == 0
               ? new Container(
                   color: Colors.white,
                   child: Stack(
@@ -107,73 +110,73 @@ class _ImboxState extends State<Imbox> {
                 )
               : 21,
           (i) => ListView.builder(
-                scrollDirection: Axis.vertical,
-                shrinkWrap: true,
-                itemCount: 1,
-                itemBuilder: (BuildContext context, int index) {
-                  return InkWell(
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: Card(
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            Center(
-                              child: Padding(
-                                padding: const EdgeInsets.only(
-                                    top: 24.0, left: 24, right: 12),
-                                child: new Text(
-                                  subjects[i].substring(8).toString(),
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 18),
-                                ),
-                              ),
-                            ),
-                            new Text(
-                              tos[i],
+            scrollDirection: Axis.vertical,
+            shrinkWrap: true,
+            itemCount: 1,
+            itemBuilder: (BuildContext context, int index) {
+              return InkWell(
+                child: Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Card(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        Center(
+                          child: Padding(
+                            padding: const EdgeInsets.only(
+                                top: 24.0, left: 24, right: 12),
+                            child: new Text(
+                              subjects[i].substring(8).toString(),
                               textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 18),
                             ),
-                            new Divider(),
-                            new Padding(
-                              padding: EdgeInsets.all(10.0),
-                              child: Text(
-                                froms[i],
-                                textAlign: TextAlign.center,
-                              ),
+                          ),
+                        ),
+                        new Text(
+                          tos[i],
+                          textAlign: TextAlign.center,
+                        ),
+                        new Divider(),
+                        new Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Text(
+                            froms[i],
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        new Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Text(dates[i]),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                onTap: () => showMobilePopup(
+                  context: context,
+                  builder: (context) => MobilePopUp(
+                    title: subjects[i].substring(8).toString(),
+                    leadingColor: Colors.white,
+                    child: Builder(
+                      builder: (navigator) => Scaffold(
+                        body: SingleChildScrollView(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: LinkText(
+                              text: bodies[i],
+                              textAlign: TextAlign.justify,
+                              linkStyle: TextStyle(color: Colors.blue),
                             ),
-                            new Padding(
-                              padding: EdgeInsets.all(10.0),
-                              child: Text(dates[i]),
-                            ),
-                          ],
+                          ),
                         ),
                       ),
                     ),
-                    onTap: () => showMobilePopup(
-                          context: context,
-                          builder: (context) => MobilePopUp(
-                                title: subjects[i].substring(8).toString(),
-                                leadingColor: Colors.white,
-                                child: Builder(
-                                  builder: (navigator) => Scaffold(
-                                        body: SingleChildScrollView(
-                                          child: Padding(
-                                            padding: const EdgeInsets.all(8.0),
-                                            child: new Text(
-                                              bodies[i],
-                                              textAlign: TextAlign.left,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                ),
-                              ),
-                        ),
-                  );
-                },
-              ),
+                  ),
+                ),
+              );
+            },
+          ),
         ),
       ),
     );

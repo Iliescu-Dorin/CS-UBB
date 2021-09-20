@@ -1,19 +1,19 @@
 import 'dart:async';
+import 'dart:io';
 import 'dart:ui';
-
+import 'package:UBB/Pages/Setari/widget/superhero.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../entities/account.dart';
-import '../entities/favourite.dart';
+import 'package:flutter_email_sender/flutter_email_sender.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../utils/assets.dart';
 
 class TransitionBottomSheetView extends StatefulWidget {
-  const TransitionBottomSheetView(
-      {Key key, @required this.account, @required this.favourite})
+  const TransitionBottomSheetView({Key key, @required this.favourite})
       : super(key: key);
 
-  final Account account;
-  final Favourite favourite;
+  final SuperHero favourite;
 
   @override
   State<StatefulWidget> createState() {
@@ -23,6 +23,47 @@ class TransitionBottomSheetView extends StatefulWidget {
 
 class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
     with TickerProviderStateMixin {
+  String attachment;
+
+  final _subjectController = TextEditingController(text: '');
+
+  final _bodyController = TextEditingController(
+    text: "",
+  );
+  // final _recipientController = TextEditingController(text: "");
+
+  String email;
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+  Future<String> getIt() async {
+    email = widget.favourite.email;
+    return email;
+    // String get imagePath => imagePath;
+  }
+
+  Future<void> send() async {
+    final Email email = Email(
+      body: _bodyController.text,
+      subject: _subjectController.text,
+      recipients: [widget.favourite.email.substring(8)],
+      attachmentPath: attachment,
+    );
+
+    String platformResponse;
+
+    try {
+      await FlutterEmailSender.send(email);
+      platformResponse = 'success';
+    } catch (error) {
+      platformResponse = error.toString();
+    }
+
+    // if (!mounted) return;
+
+    // _scaffoldKey.currentState.showSnackBar(SnackBar(
+    // content: Text(platformResponse),
+    // ));
+  }
+
   int _step = 0;
 
   Timer timer;
@@ -41,6 +82,7 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
 
   @override
   void initState() {
+    getSPEmail();
     super.initState();
 
     _controller = AnimationController(
@@ -80,7 +122,10 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
 
   @override
   Widget build(BuildContext context) {
+    // final Widget imagePath = Text(attachment ?? '');
+
     return Column(
+      key: _scaffoldKey,
       children: [
         Expanded(
           child: Container(),
@@ -128,7 +173,7 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
                         borderRadius: BorderRadius.all(Radius.circular(16))),
                     clipBehavior: Clip.antiAliasWithSaveLayer,
                     child: Image(
-                      image: Assets.image(widget.favourite.image),
+                      image: NetworkImage(widget.favourite.photo),
                       height: 64,
                       width: 64,
                       fit: BoxFit.cover,
@@ -166,14 +211,21 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
                   opacity: 0.5,
                   child: Container(
                     margin: EdgeInsets.only(top: 20),
-                    child: Text("From",
-                        style: TextStyle(
-                            fontSize: 14, fontWeight: FontWeight.w400)),
+                    child: Text(
+                      "De La: ",
+                      style:
+                          TextStyle(fontSize: 14, fontWeight: FontWeight.w400),
+                    ),
                   ),
+                ),
+                TextField(
+                  textAlign: TextAlign.center,
+                  controller: _textControllerEmail,
+                  readOnly: true,
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 8),
-                  child: buildAccountSummary(context, widget.account, true),
+                  child: buildAccountSummary(context, widget.favourite, true),
                 ),
               ],
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -181,7 +233,7 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
           ),
           createDivider(
             color: dividerColor,
-            height: 41,
+            height: 1,
           ),
           Container(
             padding: EdgeInsets.only(
@@ -192,95 +244,69 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
               children: <Widget>[
                 Opacity(
                   opacity: 0.5,
-                  child: Container(
-                    child: Text("To",
-                        style: TextStyle(
-                            fontSize: 14, fontWeight: FontWeight.w400)),
-                  ),
-                ),
-                Container(
-                  margin: EdgeInsets.only(top: 8),
-                  child: buildAccountSummary(
-                      context, widget.favourite.account, false),
-                ),
-              ],
-              crossAxisAlignment: CrossAxisAlignment.start,
-            ),
-          ),
-          createDivider(
-            color: dividerColor,
-            height: 41,
-          ),
-          Container(
-            padding: EdgeInsets.only(
-              right: 20,
-              left: 20,
-            ),
-            child: Column(
-              children: <Widget>[
-                Opacity(
-                  opacity: 0.5,
-                  child: Container(
-                    child: Text("Message",
-                        style: TextStyle(
-                            fontSize: 14, fontWeight: FontWeight.w400)),
-                  ),
-                ),
-                TextFormField(
-                  decoration: InputDecoration(
-                    border: _border,
-                    enabledBorder: _border,
-                    focusedBorder: _border,
-                    hintText: "Hi! Leave a message",
-                  ),
-                ),
-              ],
-              crossAxisAlignment: CrossAxisAlignment.start,
-            ),
-          ),
-          createDivider(
-            color: dividerColor,
-            height: 41,
-          ),
-          Container(
-            padding: EdgeInsets.only(
-              right: 20,
-              left: 20,
-            ),
-            child: Column(
-              children: <Widget>[
-                Opacity(
-                  opacity: 0.5,
-                  child: Container(
-                    alignment: Alignment.center,
-                    child: Text("Amount",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            fontSize: 14, fontWeight: FontWeight.w400)),
-                  ),
-                ),
-                Container(
-                  width: 130,
                   child: TextFormField(
-                    textAlign: TextAlign.right,
-                    controller: _amountController,
-                    style: amountTextStyle,
-                    keyboardType: TextInputType.number,
+                    readOnly: true,
                     decoration: InputDecoration(
                       border: _border,
                       enabledBorder: _border,
                       focusedBorder: _border,
-                      hintStyle: amountTextStyle,
-                      prefixStyle: amountTextStyle,
-                      suffixStyle: amountTextStyle.copyWith(
-                          color: Colors.black.withOpacity(0.5)),
-                      suffixText: ".00",
-                      prefixText: "\$",
+                      hintText:
+                          widget.favourite.email.substring(8) + " (default)",
                     ),
                   ),
                 ),
+                // Container(
+                //   margin: EdgeInsets.only(top: 8),
+                //   child: buildAccountSummary(
+                //       context, widget.favourite.account, false),
+                // ),
               ],
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
+            ),
+          ),
+          createDivider(
+            color: dividerColor,
+            height: 1,
+          ),
+          Container(
+            padding: EdgeInsets.only(
+              right: 20,
+              left: 20,
+            ),
+            child: Column(
+              children: <Widget>[
+                Opacity(
+                  opacity: 0.5,
+                  child: TextFormField(
+                    controller: _subjectController,
+                    decoration: InputDecoration(
+                      border: _border,
+                      enabledBorder: _border,
+                      focusedBorder: _border,
+                      hintText: "Titlu :",
+                    ),
+                  ),
+                ),
+                Divider(),
+              ],
+              crossAxisAlignment: CrossAxisAlignment.start,
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.only(
+              right: 20,
+              left: 20,
+            ),
+            child: TextFormField(
+              controller: _bodyController,
+              keyboardType: TextInputType.multiline,
+              maxLines: null,
+              decoration: InputDecoration(
+                border: _border,
+                enabledBorder: _border,
+                focusedBorder: _border,
+                hintText: "Salut! Lasa un mesaj",
+              ),
             ),
           ),
         ],
@@ -370,7 +396,7 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
                 Container(
                   margin: EdgeInsets.only(top: 10),
                   child: Text(
-                    "Transaction complete",
+                    "E-mail Pregatit",
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w400,
@@ -382,18 +408,23 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
                     children: <Widget>[
                       Column(
                         children: <Widget>[
+                          TextField(
+                            controller: _textControllerEmail,
+                            readOnly: true,
+                            textAlign: TextAlign.center,
+                          ),
                           Container(
                             child: buildAccountSummary(
-                                context, widget.account, false),
+                                context, widget.favourite, false),
                           ),
                           Container(
                             height: 44,
                             width: 20,
                           ),
-                          Container(
-                            child: buildAccountSummary(
-                                context, widget.favourite.account, false),
-                          ),
+                          // Container(
+                          //   child: buildAccountSummary(
+                          //       context, widget.favourite.account, false),
+                          // ),
                         ],
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisSize: MainAxisSize.min,
@@ -409,10 +440,17 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
                           color: Color.fromRGBO(180, 189, 197, 1),
                         ),
                         alignment: Alignment.center,
-                      ))
+                      )),
                     ],
                   ),
                   margin: EdgeInsets.only(top: 43),
+                ),
+                TextFormField(
+                  readOnly: true,
+                  textAlign: TextAlign.center,
+                  decoration: InputDecoration(
+                    hintText: widget.favourite.email.substring(8),
+                  ),
                 ),
               ],
               mainAxisSize: MainAxisSize.max,
@@ -425,25 +463,9 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
           ),
           Column(
             children: <Widget>[
-              Opacity(
-                opacity: 0.5,
-                child: Container(
-                  child: Text("Amount",
-                      style:
-                          TextStyle(fontSize: 14, fontWeight: FontWeight.w400)),
-                ),
-              ),
-              Container(
-                margin: EdgeInsets.only(top: 4),
-                child: Text.rich(
-                  TextSpan(text: "\$${_amountController.text}", children: [
-                    TextSpan(
-                        text: ".00",
-                        style: TextStyle(color: Colors.black.withOpacity(0.5)))
-                  ]),
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.w700),
-                ),
-              ),
+              attachment == null
+                  ? Text("Imagine: ")
+                  : Text("Imagine: $attachment")
             ],
             crossAxisAlignment: CrossAxisAlignment.center,
           ),
@@ -452,45 +474,27 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
     );
   }
 
+  String _name;
+  //TODO: Aici modifici continutul Cardurilor(pentru email)
+  TextEditingController _textControllerEmail;
+  Future<Null> getSPEmail() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _name = prefs.getString("name");
+    setState(() {
+      _textControllerEmail =
+          new TextEditingController(text: _name + "@scs.ubbcluj.ro");
+    });
+  }
+
   buildAccountSummary(
-      BuildContext context, Account account, bool displayAmount) {
+      BuildContext context, SuperHero prof, bool displayAmount) {
     List<Widget> widgets = [
-      Card(
-        color: account.color,
-        child: Container(
-          padding: EdgeInsets.all(7),
-          width: 34,
-          child: Image(
-            image: Assets.image("mastercard.png"),
-            height: 12,
-            width: 18,
-            fit: BoxFit.scaleDown,
-          ),
-          height: 26,
-        ),
-      ),
       Container(
-        margin: EdgeInsets.only(left: 10),
-        child: Text(
-          "${account.name} *${account.getLastCardNumber()}",
-          style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400),
-        ),
+        padding: EdgeInsets.all(7),
+        width: 50,
+        child: SizedBox.shrink(),
       ),
     ];
-    if (displayAmount) {
-      widgets.addAll([
-        Expanded(
-          child: Container(),
-          flex: 1,
-        ),
-        Container(
-          child: Text(
-            displayAmount ? "${account.getAmountInString()}" : "",
-            style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400),
-          ),
-        ),
-      ]);
-    }
     return Row(
       children: widgets,
       mainAxisSize: MainAxisSize.min,
@@ -506,7 +510,15 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
     );
   }
 
+  void _openImagePicker() async {
+    File pick = await ImagePicker.pickImage(source: ImageSource.gallery);
+    setState(() {
+      attachment = pick.path;
+    });
+  }
+
   createAction(BuildContext context) {
+    //actiuni de dupa
     List<Widget> actions = <Widget>[];
 
     if (_step > 1) {
@@ -514,13 +526,13 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
         Expanded(
           child: FlatButton(
             onPressed: () {
-              Navigator.of(context).pop();
+              _openImagePicker();
             },
             child: Container(
               height: 59,
               alignment: Alignment.center,
               child: Text(
-                "Template",
+                "Imagine",
                 style: TextStyle(fontSize: 20),
               ),
               width: MediaQuery.of(context).size.width,
@@ -536,13 +548,14 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
         Expanded(
           child: FlatButton(
             onPressed: () {
+              send();
               Navigator.of(context).pop();
             },
             child: Container(
               height: 59,
               alignment: Alignment.center,
               child: Text(
-                "Repeat",
+                "Trimite",
                 style: TextStyle(fontSize: 20),
               ),
               width: MediaQuery.of(context).size.width,
@@ -565,7 +578,7 @@ class _TransitionBottomSheetViewState extends State<TransitionBottomSheetView>
               height: 59,
               alignment: Alignment.center,
               child: Text(
-                "Pay",
+                "Gata",
                 style: TextStyle(fontSize: 20),
               ),
               width: MediaQuery.of(context).size.width,

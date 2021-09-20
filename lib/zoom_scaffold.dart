@@ -1,15 +1,22 @@
+import 'package:UBB/Pages/Setari/screens/settings.dart';
+import 'package:UBB/Pages/Setari/widget/superhero.dart';
+import 'package:UBB/Pages/Stiri/MyHomePage.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_offline/flutter_offline.dart';
-import './Pages/news.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import './Pages/Dashboard.dart';
 import 'package:rounded_floating_app_bar/rounded_floating_app_bar.dart';
-import './Pages/orar.dart';
 import "./Pages/Login/login_page.dart";
 import './Pages/Info/Info.dart';
-import './Pages/Inbox_page.dart';
-import './Pages/Yourself/pages/app.dart';
+import 'Pages/Orar/orar.dart';
+import 'Pages/Yourself/components/bottom_sheet.dart';
+import 'Pages/Yourself/entities/account.dart';
+import 'Pages/Yourself/entities/favourite.dart';
+import 'Pages/Yourself/views/transition_bottom_sheet.dart';
+import 'main.dart';
 
 class ZoomScaffold extends StatefulWidget {
   final Widget menuScreen;
@@ -26,6 +33,13 @@ class ZoomScaffold extends StatefulWidget {
 
 class _ZoomScaffoldState extends State<ZoomScaffold>
     with TickerProviderStateMixin {
+  String name = "";
+
+  Future<Null> getSharedPrefs() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    name = prefs.getString("name");
+  }
+
   MenuController menuController;
   Curve scaleDownCurve = new Interval(0.0, 0.3, curve: Curves.easeOut);
   Curve scaleUpCurve = new Interval(0.0, 1.0, curve: Curves.easeOut);
@@ -45,10 +59,9 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
       },
       children: <Widget>[
         MainPage(),
-        News(),
+        MyHomePage(),
         Orar(),
         LoginPage(),
-        
       ],
     );
   }
@@ -69,11 +82,19 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
 
   @override
   void initState() {
+    getSharedPrefs();
     super.initState();
 
     menuController = new MenuController(
       vsync: this,
     )..addListener(() => setState(() {}));
+  }
+
+  void showFavouriteInfo(BuildContext context, SuperHero favourite) {
+    showModalBottomSheetApp(
+      context: context,
+      builder: (context) => TransitionBottomSheetView( favourite: favourite),
+    );
   }
 
   @override
@@ -86,6 +107,7 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
     return zoomAndSlideContent(
       new Container(
         child: new Scaffold(
+          backgroundColor: Theme.of(context).backgroundColor,
           body: NestedScrollView(
             headerSliverBuilder: (context, isInnerBoxScroll) {
               return [
@@ -99,30 +121,51 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
                         menuController.toggle();
                       }),
                   actions: <Widget>[
-                    IconButton(
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            new MaterialPageRoute(
-                                builder: (context) => new AppPage()));
-                      },
-                      icon: Icon(
-                        Icons.account_circle,
-                        color: Colors.grey,
-                      ),
-                    ),
-                    IconButton(
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            new MaterialPageRoute(
-                                builder: (context) => new Info()));
-                      },
-                      icon: Icon(
-                        Icons.info,
-                        color: Colors.grey,
-                      ),
-                    )
+                    GestureDetector(
+                        onLongPress: () async {
+                          SharedPreferences prefs =
+                              await SharedPreferences.getInstance();
+                          String prefTheme = prefs.getString("theme") == null
+                              ? "light"
+                              : prefs.getString("theme");
+                          if (prefTheme == "light") {
+                            SharedPreferences preferences =
+                                await SharedPreferences.getInstance();
+                            preferences.setString("theme", "dark");
+                            MyMainPage.restartApp(context);
+                          } else if (prefTheme == "dark") {
+                            SharedPreferences preferences =
+                                await SharedPreferences.getInstance();
+                            preferences.setString("theme", "light");
+                            MyMainPage.restartApp(context);
+                          } else {
+                            print("shit happened");
+                          }
+                        },
+                        child: IconButton(
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new Settings()));
+                          },
+                          icon: Icon(
+                            EvaIcons.settingsOutline,
+                            color: Colors.grey,
+                          ),
+                        )),
+                    // IconButton(
+                    //   onPressed: () {
+                    //     Navigator.push(
+                    //         context,
+                    //         new MaterialPageRoute(
+                    //             builder: (context) => new Info()));
+                    //   },
+                    //   icon: Icon(
+                    //     Icons.info,
+                    //     color: Colors.grey,
+                    //   ),
+                    // )
                   ],
                   iconTheme: IconThemeData(
                     color: Colors.black,
@@ -132,22 +175,27 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
                       color: Colors.black,
                     ),
                   ),
-                  floating: true,
-                  snap: true,
-                  title: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 16),
-                        child: Text(
-                          "Student UBB",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 18),
-                        ),
-                      ),
-                    ],
+                  floating: false,
+                  snap: false,
+                  pinned: true,
+                  title: Container(
+                    alignment: AlignmentDirectional.center,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                      child: name == ""
+                          ? Text(
+                              "Student UBB",
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 18),
+                            )
+                          : Text(
+                              "$name",
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 18),
+                            ),
+                    ),
                   ),
-                  backgroundColor: Colors.white,
+                  // backgroundColor: Colors.grey,
                 ),
               ];
             },
@@ -168,8 +216,9 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
                       right: 0.0,
                       bottom: 0.0,
                       child: Container(
-                        color:
-                            connected ? Colors.blueAccent : Color(0xFFEE4400),
+                        color: connected
+                            ? Theme.of(context).accentColor
+                            : Color(0xFFEE4400),
                         child: Center(
                           child: Text("${connected ? 'ONLINE' : 'OFFLINE'}",
                               style: TextStyle(
@@ -188,9 +237,11 @@ class _ZoomScaffoldState extends State<ZoomScaffold>
             ),
           ),
           bottomNavigationBar: CurvedNavigationBar(
+            color: Theme.of(context).backgroundColor,
+            buttonBackgroundColor: Theme.of(context).unselectedWidgetColor,
             index: bottomSelectedIndex,
             height: 60.0,
-            backgroundColor: Colors.blueAccent,
+            backgroundColor: Theme.of(context).accentColor,
             items: <Widget>[
               Icon(
                 Icons.home,

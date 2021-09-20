@@ -2,14 +2,8 @@ import 'package:flutter/material.dart';
 import 'artist_details_page.dart';
 import 'models.dart';
 import 'package:flutter/services.dart';
-// import 'package:local_auth/local_auth.dart';
-import  '../Login/login_page.dart';
 
 class Info extends StatelessWidget {
-  // final LocalAuthentication _localAuthentication = LocalAuthentication();
-  // bool _canCheckBiometric = false;
-  // String _authorizedOrNot ="Not Authorized";
-  // List<BiometricType> _avalableBiometricTypes = List<BiometricType>();
   static final Artist andy = Artist(
     firstName: 'Student',
     lastName: '   UBB',

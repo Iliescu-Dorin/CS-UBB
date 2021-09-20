@@ -1,5 +1,7 @@
 import 'dart:ui';
 
+import 'package:UBB/Pages/Orar/OrarAziMaine/orar_azi.dart';
+import 'package:UBB/Pages/Orar/OrarAziMaine/orar_maine.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../utils/assets.dart';
@@ -15,11 +17,6 @@ class TransactionsView extends StatefulWidget {
 
 class _TransactionsViewState extends State<TransactionsView> {
   int _selectedTabIndex = 0;
-
-  @override
-  void initState() {
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -38,8 +35,10 @@ class _TransactionsViewState extends State<TransactionsView> {
             margin: EdgeInsets.only(),
             width: constraints.maxWidth,
             height: constraints.maxHeight - 56,
-            color: Colors.white,
-            child: buildPayments(context, constraints),
+            // color: Colors.white,
+            child: _selectedTabIndex == 0
+                ? buildToday(context, constraints)
+                : buildTomorrow(context, constraints),
           ),
         ],
       ),
@@ -47,8 +46,8 @@ class _TransactionsViewState extends State<TransactionsView> {
   }
 
   List<Widget> buildTabs(BuildContext context, BoxConstraints constraints) {
-    Widget tab1 = buildTab(context, constraints, "Payments", 0);
-    Widget tab2 = buildTab(context, constraints, "Transactions", 1);
+    Widget tab1 = buildTab(context, constraints, "Azi", 0);
+    Widget tab2 = buildTab(context, constraints, "Maine", 1);
 
     return //selectedTabIndex == 0 ? [tab1, tab2] :
         [tab2, tab1];
@@ -58,7 +57,9 @@ class _TransactionsViewState extends State<TransactionsView> {
       BuildContext context, BoxConstraints constraints, String text, int i) {
     Widget widget = Container(
       height: 56,
-      color: _selectedTabIndex == i ? Colors.white : Colors.transparent,
+      color: _selectedTabIndex == i
+          ? Theme.of(context).backgroundColor
+          : Colors.transparent,
       alignment: Alignment.centerLeft,
       child: GestureDetector(
         onTap: () {
@@ -80,6 +81,7 @@ class _TransactionsViewState extends State<TransactionsView> {
         ),
       ),
     );
+
     if (_selectedTabIndex == i)
       return IgnorePointer(
         child: ClipShadowPath(
@@ -95,29 +97,91 @@ class _TransactionsViewState extends State<TransactionsView> {
       );
   }
 
-  buildPayments(BuildContext context, BoxConstraints constraints) {
-    return ListView(
-
+  buildToday(BuildContext context, BoxConstraints constraints) {
+    return Column(
       children: <Widget>[
-        ListItem(
-          image: "wifi.png",
-          text: "Internet & Telephony",
-          subtitle: "Over 500 operators",
+        OrarRework(),
+        SizedBox(height: 10,),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          //  => Center Row contents horizontally,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          //  => Center Row contents vertically,
+          children: <Widget>[
+            Text("Legenda: "),
+            Container(
+              height: 8,
+              width: 8,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+            ),
+            Text('-Curs '),
+            Container(
+              height: 8,
+              width: 8,
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+            ),
+            Text('-Seminar '),
+            Container(
+              height: 8,
+              width: 8,
+              decoration: BoxDecoration(
+                color: Colors.blue,
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+            ),
+            Text('-Laborator '),
+          ],
         ),
-        ListItem(
-          image: "game.png",
-          text: "Games",
-          subtitle: "Over 250 games",
-        ),
-        ListItem(
-          image: "wallet.png",
-          text: "E-Wallet",
-          subtitle: "Over 60 wallets",
-        ),
-        ListItem(
-          image: "transport.png",
-          text: "Transport",
-          subtitle: "Over 150 operators",
+      ],
+    );
+  }
+
+  buildTomorrow(BuildContext context, BoxConstraints constraints) {
+    return Column(
+      children: <Widget>[
+        OrarReworkMaine(),
+        SizedBox(height: 10,),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          //  => Center Row contents horizontally,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          //  => Center Row contents vertically,
+          children: <Widget>[
+            Text("Legenda: "),
+            Container(
+              height: 8,
+              width: 8,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+            ),
+            Text('-Curs '),
+            Container(
+              height: 8,
+              width: 8,
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+            ),
+            Text('-Seminar '),
+            Container(
+              height: 8,
+              width: 8,
+              decoration: BoxDecoration(
+                color: Colors.blue,
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+            ),
+            Text('-Laborator '),
+          ],
         ),
       ],
     );

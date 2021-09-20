@@ -10,161 +10,172 @@ class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => new _LoginPageState();
 }
-
+ TextEditingController _textControllerEmail;
+  String _name = "";
+  TextEditingController _textControllerPass;
+  String _pass = "";
 class _LoginPageState extends State<LoginPage> {
-  String _name="";
-  String _pass="";
-  var _textControllerEmail = new TextEditingController(text: '');
-  var _textControllerPass = new TextEditingController(text: '');
+ 
 
-    Future<bool> saveNamePreference(String name) async {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      prefs.setString("name", name);
-      return prefs.commit();
-    }
+  Future<Null> getSharedPrefs() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _name = prefs.getString("name");
+    _pass = prefs.getString("pass");
+    setState(() {
+      _textControllerEmail = new TextEditingController(text: _name);
+      _textControllerPass = new TextEditingController(text: _pass);
+    });
+  }
 
-    Future<bool> savePassPreference(String pass) async {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      prefs.setString("pass", pass);
-      return prefs.commit();
-    }
+  Future<bool> saveNamePreference(String name) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString("name", name);
+    return prefs.commit();
+  }
 
-    Future<String> getNamePreference() async {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      String name = prefs.getString("name");
-      return name;
-    }
+  Future<bool> savePassPreference(String pass) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString("pass", pass);
+    return prefs.commit();
+  }
 
-    Future<String> getPassPreference() async {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      String pass = prefs.getString("pass");
-      return pass;
-    }
+  Future<String> getNamePreference() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String name = prefs.getString("name");
+    return name;
+  }
 
+  Future<String> getPassPreference() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String pass = prefs.getString("pass");
+    return pass;
+  }
 
   @override
   void initState() {
-    getNamePreference().then(updateName);
-        getPassPreference().then(updatePass);
-                super.initState();
-              }
-              @override
-              Widget build(BuildContext context) {
-                final logo = Hero(
-                  tag: 'hero',
-                  child: CircleAvatar(
-                    backgroundColor: Colors.transparent,
-                    radius: 48.0,
-                    child: Image.asset('assets/logo.png'),
-                  ),
-                );
-            
-                final email = TextFormField(
-                  keyboardType: TextInputType.emailAddress,
-                  autofocus: false,
-                  controller: _textControllerEmail, 
-                  decoration: InputDecoration(
-                    hintText: 'User primit de la FSEGA',
-                    contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
-                  ),
-                );
-                // final pervEmail= Text(_name);
-            
-                final password = TextFormField(
-                  autofocus: false,
-                  controller: _textControllerPass,
-                  obscureText: true,
-                  decoration: InputDecoration(
-                    hintText: 'Parola primita de la FSEGA',
-                    contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
-                  ),
-                );
-            
-                // final prevPass = Text(_pass);
+    _name = "";
+    _pass = "";
+    getSharedPrefs();
+    super.initState();
+  }
 
-                void saveName() {
-                  String name = _textControllerEmail.text;
-                  saveNamePreference(name);
-                  String pass = _textControllerPass.text;
-                  saveNamePreference(pass).then((bool committed) {
-                    var route = new MaterialPageRoute(
-                        builder: (context) => new HomePage(
-                              user: _textControllerEmail.text,
-                              pass: _textControllerPass.text,
-                            ));
-                    Navigator.of(context).push(route);
-                  });
-                }
-            
-                final loginButton = Padding(
-                  padding: EdgeInsets.symmetric(vertical: 16.0),
-                  child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(24),
-                    ),
-                    onPressed: () {saveName();
-                      // var route = new MaterialPageRoute(
-                      //     builder: (context) => new HomePage(
-                      //           user: _textControllerEmail.text,
-                      //           pass: _textControllerPass.text,
-                      //         ));
-                      // Navigator.of(context).push(route);
-                    },
-                    padding: EdgeInsets.all(12),
-                    color: Colors.lightBlueAccent,
-                    child: Text('Logare', style: TextStyle(color: Colors.white)),
+  @override
+  Widget build(BuildContext context) {
+    final logo = Hero(
+      tag: 'hero',
+      child: CircleAvatar(
+        backgroundColor: Theme.of(context).backgroundColor,
+        radius: 48.0,
+        child: Image.asset('assets/logo.png'),
+      ),
+    );
+    Future<bool> storeName(String name) async {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+
+      return prefs.setString("name", name);
+    }
+
+    final email = TextField(
+      keyboardType: TextInputType.emailAddress,
+      autofocus: false,
+      onChanged: (String str) {
+        setState(() {
+          _name = str;
+          storeName(str);
+        });
+      },
+      controller: _textControllerEmail,
+      decoration: InputDecoration(
+        hintText: 'User primit de la FSEGA',
+        contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+      ),
+    );
+    // final pervEmail= Text(_name);
+
+    Future<bool> storePass(String pass) async {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+
+      return prefs.setString("pass", pass);
+    }
+
+    final password = TextField(
+      autofocus: false,
+      controller: _textControllerPass,
+      onChanged: (String str) {
+        setState(() {
+          _pass = str;
+          storePass(str);
+        });
+      },
+      obscureText: true,
+      decoration: InputDecoration(
+        hintText: 'Parola primita de la FSEGA',
+        contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+      ),
+    );
+
+    // final prevPass = Text(_pass);
+
+    final loginButton = Padding(
+      padding: EdgeInsets.symmetric(vertical: 16.0),
+      child: RaisedButton(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(24),
+        ),
+        onPressed: () {
+          var route = new MaterialPageRoute(
+              builder: (context) => new HomePage(
+                    user: _textControllerEmail.text,
+                    pass: _textControllerPass.text,
+                  ));
+          Navigator.of(context).push(route);
+        },
+        padding: EdgeInsets.all(12),
+        color: Colors.lightBlueAccent,
+        child: Text('Logare', style: TextStyle(color: Colors.white)),
+      ),
+    );
+
+    return Container(
+      padding: EdgeInsets.only(left: 24.0, right: 24.0),
+      color: Colors.transparent,
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            logo,
+            SizedBox(height: 48.0),
+            email,
+            SizedBox(height: 8.0),
+            password,
+            SizedBox(height: 24.0),
+            loginButton,
+            FlatButton(
+              child: Text(
+                'Ai uitat contul ?',
+                style: TextStyle(color: Theme.of(context).accentColor),
+              ),
+              onPressed: () {
+                final snackBar = SnackBar(
+                  backgroundColor: Colors.grey[900],
+                  content: Text(
+                    'Asta e ... se mai intampla. Faci un drum pana la FSEGA :)',
+                    style: TextStyle(
+                        color: Colors.white, fontWeight: FontWeight.w500),
+                  ),
+                  action: SnackBarAction(
+                    label: 'Gata',
+                    onPressed: () {},
                   ),
                 );
-            
-                final forgotLabel = FlatButton(
-                  child: Text(
-                    'Ai uitat contul ?',
-                    style: TextStyle(color: Colors.black54),
-                  ),
-                  onPressed: () {
-                    final snackBar = SnackBar(
-                      content:
-                          Text('Asta e ... se mai intampla. Faci un drum pana la FSEGA :)'),
-                      action: SnackBarAction(
-                        label: 'Gata', onPressed: () {},
-                      ),
-                    );
-                    Scaffold.of(context).showSnackBar(snackBar);
-                  },
-                );
-            
-                return Scaffold(
-                  backgroundColor: Colors.white,
-                  body: Center(
-                    child: ListView(
-                      shrinkWrap: true,
-                      padding: EdgeInsets.only(left: 24.0, right: 24.0),
-                      children: <Widget>[
-                        logo,
-                        SizedBox(height: 48.0),
-                        email,
-                        SizedBox(height: 8.0),
-                        password,
-                        SizedBox(height: 24.0),
-                        loginButton,
-                        forgotLabel
-                      ],
-                    ),
-                  ),
-                );
-              }
-            
-              void updateName(String name) {
-                setState(() {
-                  this._name=name;
-                });
-          }
-        
-                void updatePass(String pass) {
-                  setState(() {
-                    this._pass=pass;
-                  });
-                }
+                Scaffold.of(context).showSnackBar(snackBar);
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 }

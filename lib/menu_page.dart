@@ -1,6 +1,6 @@
+import 'package:UBB/Pages/About/About_page.dart';
 import 'package:UBB/circular_image.dart';
 import 'package:flutter/material.dart';
-import './main.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MenuScreen extends StatelessWidget {
@@ -8,8 +8,7 @@ class MenuScreen extends StatelessWidget {
 
   final List<MenuItem> options = [
     MenuItem(Icons.school, 'UBB', "http://www.cs.ubbcluj.ro/"),
-    MenuItem(Icons.people, 'Profesori',
-        "http://www.cs.ubbcluj.ro/despre-facultate/structura/departamentul-de-informatica/"),
+    MenuItem(Icons.event, 'Structura', "http://www.cs.ubbcluj.ro/invatamant/structura-anului-universitar/"),
     MenuItem(Icons.assignment, 'Sali',
         "http://www.cs.ubbcluj.ro/files/orar/2018-1/sali/legenda.html"),
     MenuItem(Icons.account_balance, 'AcademicInfo',
@@ -25,7 +24,7 @@ class MenuScreen extends StatelessWidget {
           left: 32,
           bottom: 8,
           right: MediaQuery.of(context).size.width / 2.9),
-      color: Color(0xea1a237e),
+      color:  Theme.of(context).accentColor,
       child: Column(
         children: <Widget>[
           Row(
@@ -76,17 +75,10 @@ class MenuScreen extends StatelessWidget {
           ),
           Spacer(),
           ListTile(
-            onTap: () => {},
-            leading: Icon(
-              Icons.settings,
-              color: Colors.white,
-              size: 20,
-            ),
-            title: Text('Setari',
-                style: TextStyle(fontSize: 14, color: Colors.white)),
-          ),
-          ListTile(
-            onTap: () => {},
+            onTap: () => {
+              Navigator.push(context,
+                  new MaterialPageRoute(builder: (context) => new MyAboutPage()))
+            },
             leading: Icon(
               Icons.headset_mic,
               color: Colors.white,

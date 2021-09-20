@@ -65,7 +65,9 @@ class _ModalBottomSheetState<T> extends State<_ModalBottomSheet<T>> {
                           animationController:
                               widget.route._animationController,
                           onClosing: () => Navigator.pop(context),
-                          builder: widget.route.builder)));
+                          builder: widget.route.builder
+                          )
+                          ));
             }));
   }
 }
